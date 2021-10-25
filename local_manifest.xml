@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="device"
+                fetch="https://github.com/ArrowOS-Devices" />
+        <project path="device/xiaomi/sweet" name="android_device_xiaomi_sweet" remote="device" revision="arrow-11.0" clone-depth="1" />
+        
+        <remote name="vendor"
+                fetch="https://github.com/ArrowOS-Devices" />
+        <project path="vendor/xiaomi/sweet" name="android_vendor_xiaomi_sweet" remote="vendor" revision="arrow-11.0" clone-depth="1" />
+
+        <remote name="kernel"
+                fetch="https://github.com/makhk" />
+        <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="kernel" revision="11" clone-depth="1" />
+        
+</manifest>
