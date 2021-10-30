@@ -13,4 +13,7 @@
                 fetch="https://github.com/makhk" />
         <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="kernel" revision="11" clone-depth="1" />
         
+        <remote name="clang"
+                fetch="https://github.com/kdrag0n" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 </manifest>
