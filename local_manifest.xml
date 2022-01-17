@@ -11,6 +11,6 @@
 
         <remote name="kernel"
                 fetch="https://github.com/phoenix-1708" />
-        <project path="kernel/xiaomi/sweet" name="android_kernel_xiaomi_sweet-2" remote="kernel" revision="12-oss" clone-depth="1" />
+        <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sm6150" remote="kernel" revision="12" clone-depth="1" />
         
 </manifest>
