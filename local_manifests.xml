@@ -8,6 +8,7 @@
   <remote name="sdclang" fetch="https://gitlab.com/nerdprojectorg" />
   <remote name="common" fetch="https://github.com/xiaomi-sm6150" />
   <remote name="kernel" fetch="https://github.com/basamaryan" />
+  <remote name="miuicam" fetch="https://github.com/basamaryan" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
@@ -19,5 +20,6 @@
   <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="common" revision="lineage-20" />
   <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="common" revision="lineage-20" />
   <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sm6150" remote="kernel" revision="13" />
+  <project path="vendor/xiaomi/sweet-miuicamera" name="android_vendor_xiaomi_sweet-miuicamera" remote="miuicam" revision="thirteen" />
 
 </manifest>
