@@ -8,7 +8,7 @@
   <remote name="sdclang" fetch="https://gitlab.com/nerdprojectorg" />
   <remote name="common" fetch="https://github.com/xiaomi-sm6150" />
   <remote name="kernel" fetch="https://github.com/basamaryan" />
-  <remote name="miuicam" fetch="https://github.com/basamaryan" />
+  <remote name="miuicam" fetch="https://github.com/aosp-playground" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
